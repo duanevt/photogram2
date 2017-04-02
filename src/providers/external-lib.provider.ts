@@ -1,5 +1,5 @@
 import {Injectable} from "@angular/core";
-import {FacebookInitParams, FacebookService} from "ng2-facebook-sdk";
+import {InitParams, FacebookService} from "ng2-facebook-sdk";
 import {IonicUtilProvider} from "./ionic-util.provider";
 import {facebook_appId, facebook_appVersion, GOOGLE_MAPS_WEB, language_default, languages} from "../config";
 import {Facebook} from "ionic-native";
@@ -40,7 +40,7 @@ export class ExternalLibProvider {
     script.id    = 'facebook';
     script.src   = 'https://connect.facebook.net/' + lang[0]['code'] + '/sdk.js';
     document.body.appendChild(script);
-    let fbParams: FacebookInitParams = {
+    let fbParams: InitParams = {
       appId  : facebook_appId,
       xfbml  : true,
       version: facebook_appVersion
