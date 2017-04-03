@@ -10,7 +10,7 @@
     "serve": "ionic serve ",
     "start": "ionic serve ",
     "android": "ionic run android -l -s -c",
-    "iphone": "ionic run iphone -l -s -c"
+    "ios": "ionic run ios -l -s -c"
   },
   "dependencies": {
     "@angular/common": "2.4.8",

@@ -27,7 +27,9 @@
 <ion-content>
 
 
-    <ion-refresher (ionRefresh)="doRefresh($event)" *ngIf="type!=='map'">
+    <ion-refresher (ionRefresh)="doRefresh($event)"
+                   [enabled]="!isIOS"
+                   *ngIf="type!=='map'">
         <ion-refresher-content></ion-refresher-content>
     </ion-refresher>
     <photo-grid [event]="eventName" *ngIf="type=='photo'"></photo-grid>

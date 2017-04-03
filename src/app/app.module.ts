@@ -9,6 +9,7 @@ import {FacebookService} from "ng2-facebook-sdk";
 import {PhotoCardComponent} from "../components/photo-card/photo-card";
 import {ProfilePage} from "../pages/profile/profile";
 import {ChatMessagePage} from "../pages/chat-message/chat-message";
+import {TermsPage} from "../pages/terms/terms";
 
 @NgModule({
     declarations   : [
@@ -26,6 +27,7 @@ import {ChatMessagePage} from "../pages/chat-message/chat-message";
                 {component: ProfilePage, name: 'Profile', segment: 'profile/:username'},
                 {component: PhotoCardComponent, name: 'Photo', segment: 'photo/:id'},
                 {component: ChatMessagePage, name: 'Chat', segment: 'chat/:id'},
+                {component: TermsPage, name: 'Terms', segment: 'terms'},
             ]
         })
     ],

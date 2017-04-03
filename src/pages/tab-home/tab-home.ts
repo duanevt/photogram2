@@ -4,6 +4,7 @@ import {IParams} from "../../models/parse.params.model";
 import {ChatChannelPage} from "../chat-channel/chat-channel";
 import {APP_NAME} from "../../config";
 import {AnalyticsProvider} from "../../providers/analytics.provider";
+import {IonicUtilProvider} from "../../providers/ionic-util.provider";
 
 @Component({
     selector   : 'page-tab-home',
@@ -23,15 +24,17 @@ export class TabHomePage {
     eventName: string = 'home';
     privacity: string = 'followers';
     moreItem: boolean = false;
+    isIOS: boolean = false;
 
     constructor(private events: Events,
                 private app: App,
                 private analytics: AnalyticsProvider,
+                private util: IonicUtilProvider
     ) {
         // Google Analytics
         this.analytics.view('TabHomePage');
-
         this.eventName = 'home';
+        this.isIOS = this.util.isIOS;
     }
 
     ionViewDidLoad() {

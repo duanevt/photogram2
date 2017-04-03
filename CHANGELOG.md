@@ -1,3 +1,15 @@
+## [2.9.1](https://github.com/photogram/photogram2) (2017-04-02)
+### News
+- Ionic Grid FIx
+- IOS Bug Ionic Refresher disabled 
+- Deeplink fix
+- Ionic button css iOS fixed
+
+
+## Upgrade
+- ionic-app-scripts 1.2.5
+- ng2-facebook-sdk 2.1.1
+
 ## [2.9.0](https://github.com/photogram/photogram2) (2017-03-28)
 ### News
 - Improvement in Facebook Brower 
