@@ -72,9 +72,6 @@ export class AuthRegisterPage {
             name                : ['', Validators.required],
             email               : ['', Validators.required],
             username            : ['', Validators.compose([Validators.required, Validators.minLength(4)])],
-            gender              : ['', Validators.required],
-            phone               : [''],
-            birthday            : [''],
             terms               : ['', Validators.required],
             password            : ['', Validators.compose([Validators.required, Validators.minLength(6)])],
             passwordConfirmation: ['', Validators.compose([Validators.required, Validators.minLength(6)])]

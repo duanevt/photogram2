@@ -1,3 +1,26 @@
+## [2.10.0](https://github.com/photogram/photogram2) (2017-05-06)
+### News
+- Ionic 3.0.1
+- Register changed form register
+- Block User
+- Block Photo
+
+## Upgrade
+- "ionic-angular": "^3.0.1",
+- "ng2-facebook-sdk": "^2.2.0", 
+- "rxjs": "^5.3.0",
+- "zone.js": "^0.8.5"
+- "@ionic/app-scripts": "^1.3.1",
+- "@angular/common": "^4.0.1",
+- "@angular/compiler": "^4.0.1",
+- "@angular/compiler-cli": "^4.0.1",
+- "@angular/core": "^4.0.1",
+- "@angular/forms": "^4.0.1",
+- "@angular/http": "^4.0.1",
+- "@angular/platform-browser": "^4.0.1",
+- "@angular/platform-browser-dynamic": "^4.0.1",
+- "@angular/platform-server": "^4.0.1",
+
 ## [2.9.1](https://github.com/photogram/photogram2) (2017-04-02)
 ### News
 - Ionic Grid FIx

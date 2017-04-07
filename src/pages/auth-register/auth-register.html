@@ -54,28 +54,6 @@
                     {{'This is a required field.' | translate}}
                 </p>
             </ion-item>
-            <!-- Birthday-->
-            <ion-item>
-                <ion-label floating>{{'Birthday' | translate}} *</ion-label>
-                <ion-datetime formControlName="birthday"
-                              displayFormat="MM/DD/YYYY"
-                              name="birthday"
-                              #birthday></ion-datetime>
-            </ion-item>
-            <!--Phone-->
-            <ion-item>
-                <ion-label floating>{{'Phone' | translate}}</ion-label>
-                <ion-input formControlName="phone" #phone
-                           placeholder="{{'Phone' | translate}}"></ion-input>
-            </ion-item>
-            <!-- Gender-->
-            <ion-item>
-                <ion-label floating>{{'Gender' | translate}} *</ion-label>
-                <ion-select formControlName="gender" name="gender" #gender>
-                    <ion-option value="male">{{'Male' | translate}}</ion-option>
-                    <ion-option value="female">{{'Female' | translate }}</ion-option>
-                </ion-select>
-            </ion-item>
 
             <!-- Password-->
             <ion-item>
